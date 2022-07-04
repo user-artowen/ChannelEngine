@@ -26,9 +26,10 @@ Implement this using a controller which displays an HTML table with the results.
 
 Business logic
 
-Create the following methods in a shared library:
-● Fetch all orders with status IN_PROGRESS from the API
 
+Create the following methods in a shared library:
+
+● Fetch all orders with status IN_PROGRESS from the API
 
 ● From these orders, compile a list of the top 5 products sold (product name, GTIN
 and total quantity), order these by the total quantity sold in descending order
