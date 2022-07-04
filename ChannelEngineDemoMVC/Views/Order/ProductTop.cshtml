@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "ChannelEngine";
+}
+
+<div class="text-center">
+    <h1 class="display-4"></h1>
+</div>
+
+    <div><b>Top 5 Products from Orders</b><br /></div>  
+    <table class="table table-bordered table-responsive table-hover">  
+        <tr>              
+            <th>MerchantProductNo</th>
+            <th>Description</th>
+            <th>GTIN</th>
+            <th>Quantity</th>
+        </tr>  
+        @foreach (var d in Model)
+        {
+            <tr>                  
+                <td>@d.MerchantProductNo</td>  
+                <td>@d.Description</td>  
+                <td>@d.GTIN</td>  
+                <td>@d.Quantity</td>  
+            </tr>
+        }  
+    </table>
+
+<div><b>@ViewBag.ProductUpdate</b><br /></div>  
