@@ -1,7 +1,6 @@
-# ChannelEngineDemo
+# C# .NET Assessment ChannelEngine
 
 
-C# .NET Assessment ChannelEngine
 
 Create a .NET application with two entry points, a console app and an ASP.NET web
 app, which are connected to the ChannelEngine REST-API.
@@ -13,14 +12,15 @@ Application Entry points
 
 ● A .NET console application which can execute the business logic listed below.
 Write the results of the logic below to the console output.
--> Project ChannelEngineDemoConsole
+
+# -> Project ChannelEngineDemoConsole
 
 
 
 ● An ASP.NET application, which can execute the business logic listed below.
 Implement this using a controller which displays an HTML table with the results.
 
--> Project ChannelEngineDemoMVC
+# -> Project ChannelEngineDemoMVC
 
 
 
@@ -50,4 +50,4 @@ dummy input.
 
 ● You can create more unit tests if that is the way you usually work.
 
--> Project ChannelEngineDemoTest
+# -> Project ChannelEngineDemoTest
